@@ -1,0 +1,8 @@
+<svg width="600" height="150" viewBox="0 0 600 150" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M70 45L30 75L70 105" stroke="#4EACFF" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M530 45L570 75L530 105" stroke="#4EACFF" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <text x="300" y="88" font-family="Arial, sans-serif" font-weight="bold" font-size="64" fill="white" text-anchor="middle" letter-spacing="4">BENERROUA</text>
+  
+  <circle cx="495" cy="92" r="8" fill="#4EACFF"/>
+</svg>

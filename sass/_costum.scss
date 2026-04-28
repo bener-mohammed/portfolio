@@ -1,0 +1,140 @@
+//Font du body
+body {
+  font-family: "Poppins", sans-serif;
+  background-image: url(/img/sun-tornado.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+// Couleur principale du menu
+.navbar-nav .nav-link {
+  font-size: 1.5rem;
+  color: #4eacff !important;
+  transition: color 0.3s ease;
+}
+
+// Hover blanc
+.navbar-nav .nav-link:hover {
+  color: #ffffff !important;
+}
+
+//couleur et taille de FULL STACK Web developer
+.hero-subtitle {
+  color: #4eacff !important;
+  font-size: 2.5em;
+  text-align: start !important ;
+}
+
+//ma photo personnelle
+.circle-img {
+  width: 50%;
+  border: #ffffff;
+}
+
+//taille du nom dans le hero
+.hero-name {
+  font-size: 5em;
+}
+
+//personnalisation du bouton "Me contacter"
+.btn-custom-blue {
+  background-color: #4eacff !important;
+  border-color: #4eacff !important;
+  color: rgb(255, 255, 255) !important;
+  transition: all 0.3s ease !important;
+  text-decoration: none !important;
+
+  &:hover {
+    background-color: #408bcc !important;
+    border-color: #4eacff !important;
+    text-decoration: none !important;
+  }
+}
+
+//Style du text des bouton
+.textbtn {
+  color: #ffffff !important;
+}
+
+//Style de la page HERO
+.hero-section {
+  min-height: 100vh !important; // hauteur = 100% de l'écran
+}
+
+//effet fade in sur les icône skills et quelques divs et sections
+.fade-in {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: all 0.8s ease;
+}
+
+.fade-in.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.typewriter::after {
+  content: "|";
+  margin-left: 4px;
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  0%,
+  50%,
+  100% {
+    opacity: 1;
+  }
+  25%,
+  75% {
+    opacity: 0;
+  }
+}
+
+//Style des liens du footer
+footer {
+  background-color: rgb(9, 39, 64, 0.7);
+}
+
+footer ul li a {
+  display: inline-block;
+  color: #b1acac;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+footer ul li a:hover {
+  color: #4eacff;
+}
+
+footer p {
+  color: #b1acac;
+}
+
+footer h5 {
+  color: #d0caca;
+}
+
+.form-control::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+  opacity: 1;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.bounce {
+  animation: bounceEffect 0.6s ease;
+}
+
+//effet bounce pour navigation menu
+@keyframes bounceEffect {
+  0%   { transform: translateY(0); }
+  30%  { transform: translateY(-20px); }
+  50%  { transform: translateY(10px); }
+  70%  { transform: translateY(-5px); }
+  100% { transform: translateY(0); }
+}
