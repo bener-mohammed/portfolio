@@ -1,3 +1,17 @@
+html, body {
+  overflow-x: hidden;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.animation-box {
+  width: 100%;
+  max-width: 600px;
+}
+
 //Font du body
 body {
   font-family: "Poppins", sans-serif;
