@@ -132,9 +132,54 @@ html {
 
 //effet bounce pour navigation menu
 @keyframes bounceEffect {
-  0%   { transform: translateY(0); }
-  30%  { transform: translateY(-20px); }
-  50%  { transform: translateY(10px); }
-  70%  { transform: translateY(-5px); }
-  100% { transform: translateY(0); }
+  0% {
+    transform: translateY(0);
+  }
+  30% {
+    transform: translateY(-20px);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+  70% {
+    transform: translateY(-5px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+/* changement de couleurs pour le MENU (projet 1 / projet 2)
+ */
+.nav-pills .nav-link.active {
+  background: none !important;
+}
+
+.custom-tab {
+  background: rgba(255, 255, 255, 0.05); /* transparent */
+  backdrop-filter: blur(10px); /* effet glass */
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: white;
+  transition: all 0.3s ease;
+}
+
+/* Hover */
+.custom-tab:hover {
+  background: rgba(255, 255, 255, 0.15);
+  transform: translateX(5px);
+}
+
+/* Onglet actif
+ */
+.custom-tab.active {
+  background: rgba(0, 123, 255, 0.2); /* bleu transparent */
+  border-color: rgba(0, 123, 255, 0.5);
+}
+
+/* CONTENU (cards à droite)
+ */
+.custom-content {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(15px);
+  border: 1px solid rgba(255, 255, 255, 0.15);
 }
